@@ -1,6 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { Parent } from './components/Parent';
+import './components/styles.css';
 
+export class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+  }
+
+  render() {
+    return (
+      <div>
+        
+​
+        <body>
+          <Parent />
+            <main id="app"></main>
+	          <script src="https://content.codecademy.com/courses/React/react-course-bundle.min.js"></script>
+            {/*<script src="/Parent.compiled.js"></script>*/}
+        </body>
+
+      </div>)
+  }
+}
+
+/*
 function App() {
   return (
     <div className="App">
@@ -23,3 +49,4 @@ function App() {
 }
 
 export default App;
+*/
