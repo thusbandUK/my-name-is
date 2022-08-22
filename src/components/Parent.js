@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Child } from './Child';
 import './styles.css';
 
@@ -24,9 +23,3 @@ export class Parent extends React.Component {
       />
   }
 }
-/*
-ReactDOM.render(
-	<Parent />,
-	document.getElementById('app')
-);
-*/

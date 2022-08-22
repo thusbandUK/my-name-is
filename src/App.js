@@ -1,14 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { Parent } from './components/Parent';
 import './components/styles.css';
 
 export class App extends React.Component {
-  constructor(props) {
-    super(props);
-
-  }
+  
 
   render() {
     return (
